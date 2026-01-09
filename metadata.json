@@ -1,0 +1,5 @@
+{
+  "name": "Product HTML Generator",
+  "description": "A tool to generate specific HTML table structures for product listings, featuring AI-powered text extraction to automatically fill product details.",
+  "requestFramePermissions": []
+}
