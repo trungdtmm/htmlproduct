@@ -12,7 +12,7 @@ export interface ExtractionResult {
 export const extractProductInfo = async (rawText: string): Promise<ExtractionResult> => {
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
+      model: "gemini-2.0-flash-exp",
       contents: `You are a product data assistant.
       
       User Input: "${rawText}"
